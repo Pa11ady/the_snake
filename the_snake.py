@@ -129,7 +129,7 @@ class Apple(GameObject):
     """Класс Яблоко."""
 
     def __init__(self):
-        super().__init__(APPLE_COLOR)        
+        super().__init__(APPLE_COLOR)
         self.randomize_position()
 
     def randomize_position(self):
